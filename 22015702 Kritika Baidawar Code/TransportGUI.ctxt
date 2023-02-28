@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=TransportGUI
+comment1.params=
+comment1.target=TransportGUI()
+comment1.text=Creating\ the\ main\ frame\ that\ is\ displayed\ when\ the\ GUI\ is\ opened.\r\n\ \ \ \ \ \ \ It\ will\ have\ a\ title\ and\ buttons\ for\ the\ vehicles\ and\ exit.\r\nClicking\ on\ the\ buttons\ will\ call\ the\ respective\ jframes\ and\ close\ the\ main\ frame.
+comment2.params=
+comment2.target=void\ autoClear()
+comment2.text=Creating\ a\ separate\ method\ for\ clearing\ the\ textfields\ in\ auto\ rickshaw\ frame\ because\ there\ are\ multiple\ scenarios\ where\ the\ \r\n\ fields\ have\ to\ be\ emptied\r\n\ using\ the\ setText()\ method\ to\ set\ the\ string\ values\ to\ empty\r\n\ using\ setSelectedIndex()\ method\ to\ reset\ the\ ComboBoxes\ to\ the\ first\ values\r\n
+comment3.params=
+comment3.target=void\ elecClear()
+comment3.text=Creating\ a\ separate\ method\ for\ clearing\ the\ textfields\ in\ electric\ scooter\ frame\ because\ there\ are\ multiple\ scenarios\ where\ the\ \r\nfields\ have\ to\ be\ emptied
+comment4.params=a
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.text=Since\ the\ TransportGUI\ class\ implements\ the\ ActionListener\ interface,\ the\ abstract\ method\ in\ ActionListener\ interface\ needs\ to\r\n\ be\ overidden\r\n\ This\ method\ overrides\ the\ abstract\ method\ actionPerformed\ in\ ActionListener\ interface\r\n\ The\ parameter\ passed\ is\ an\ ActionEvent\ a\r\n\ The\ method\ defines\ what\ needs\ to\ be\ done\ when\ the\ buttons\ in\ the\ GUI\ are\ clicked\r\n
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
